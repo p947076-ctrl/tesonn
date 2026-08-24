@@ -4,5 +4,8 @@ nixPkgs = ["bun"]
 [phases.install]
 cmds = ["bun install"]
 
+[phases.build]
+cmds = []
+
 [start]
 cmd = "bun run src/main.ts"
