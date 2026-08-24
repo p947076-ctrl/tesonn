@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "bun run --watch src/main.ts",
     "start": "bun run src/main.ts",
-    "build": "bun build src/main.ts --outdir=dist",
+    "build:client": "bun build src/main.ts --outdir=dist",
     "test": "bun test"
   },
   "dependencies": {
